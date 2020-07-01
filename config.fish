@@ -16,12 +16,12 @@ end
 # layout tweaks
 
 # glyphs and chars ------------------------------
-set -x folder_glyph       \uf115
-set -x home_glyph         \uf015
-set -x lock_glyph         \uf023
-set -x clock_glyph        \u23f2
-set -x timer_glyph        \uf252
-set -x right_arrow_glyph  \u2771
+set -x folder_glyph       ""
+set -x home_glyph         ""
+set -x lock_glyph         ""
+set -x clock_glyph        "⏲"
+set -x timer_glyph        ""
+set -x right_arrow_glyph  "❱"
 
 set -x git_glyph ""
 set -x branch_glyph ""
@@ -31,7 +31,7 @@ set -g __fish_git_prompt_char_conflictedstate "✖"
 set -g __fish_git_prompt_char_dirtystate      "✚ "
 set -g __fish_git_prompt_char_invalidstate    "✖"
 set -g __fish_git_prompt_char_stagedstate     "●"
-set -g __fish_git_prompt_char_untrackedfiles  " " \u1392
+set -g __fish_git_prompt_char_untrackedfiles  " ᎒"
 set -g __fish_git_prompt_char_upstream_ahead  "↑"
 set -g __fish_git_prompt_char_upstream_behind "↓"
 set -g __fish_git_prompt_char_upstream_prefix ""
